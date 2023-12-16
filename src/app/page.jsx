@@ -85,7 +85,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src="https://res.cloudinary.com/dbhwzxw0k/image/upload/v1671684142/Frame_2.png"
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
@@ -130,11 +130,12 @@ export default async function Home() {
     <>
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
+          
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
             Whatever It Takes
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          SailFuture proudly announces the completion of its latest marvel, the &apos;Whatever It Takes&apos;, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. The &apos;Whatever It Takes&apos; embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world&apos;s waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. Join us as we set sail on a journey of discovery and education like no other!
+          SailFuture proudly announces the completion of its latest marvel, the &apos;Whatever It Takes&apos;, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. Join us as we set sail on a journey of discovery and education like no other!
           </p>
         </FadeIn>
       </Container>
