@@ -98,7 +98,7 @@ function Build() {
         <p>
           Each client is assigned a key account manager to keep lines of
           communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
+          They act as a buffer between the client&apos;s incessant nagging and the
           development team who are hard at work scouring open source projects
           for code to re-purpose.
         </p>
