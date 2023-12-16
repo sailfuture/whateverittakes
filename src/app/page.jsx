@@ -19,7 +19,7 @@ function CaseStudies({ caseStudies }) {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
+          We believe technology is the answer to the world&apos;s greatest
           challenges. It’s also the cause, so we find ourselves in bit of a
           catch 22 situation.
         </p>
@@ -134,7 +134,7 @@ export default async function Home() {
             Whatever It Takes
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          SailFuture proudly announces the completion of its latest marvel, the 'Whatever It Takes', a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. The 'Whatever It Takes' embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world's waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. Join us as we set sail on a journey of discovery and education like no other!
+          SailFuture proudly announces the completion of its latest marvel, the &apos;Whatever It Takes&apos;, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. The &apos;Whatever It Takes&apos; embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world&apos;s waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. Join us as we set sail on a journey of discovery and education like no other!
           </p>
         </FadeIn>
       </Container>
