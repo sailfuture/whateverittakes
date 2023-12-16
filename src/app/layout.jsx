@@ -4,8 +4,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Whatever It Takes',
-    default: 'SailFuture - Whatever It Takes',
+    template: '%s - Studio',
+    default: 'Studio - Award winning developer studio based in Denmark',
   },
 }
 

@@ -21,21 +21,17 @@ export function Offices({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="SailFuture Academy" invert={invert}>
-          SailFuture Academy
+        <Office name="Copenhagen" invert={invert}>
+          1 Carlsberg Gate
           <br />
-          2154 27th Ave N, Saint Petersburg FL 33713
-          <br />
-          info@sailfuture.org
+          1260, København, Denmark
         </Office>
       </li>
       <li>
-        <Office name="Contact" invert={invert}>
-          Contact 
+        <Office name="Billund" invert={invert}>
+          24 Lego Allé
           <br />
-          mlong@sailfuture.org
-          <br />
-          (727) 967-6495
+          7190, Billund, Denmark
         </Office>
       </li>
     </ul>
