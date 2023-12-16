@@ -3,6 +3,21 @@ import Image from 'next/image'
 import clsx from 'clsx'
 
 const shapes = [
+  {
+    width: 655,
+    height: 680,
+    path: '',
+  },
+  {
+    width: 719,
+    height: 680,
+    path: '',
+  },
+  {
+    width: 719,
+    height: 680,
+    path: '',
+  },
 ]
 
 export function StylizedImage({ shape = 0, className, ...props }) {
