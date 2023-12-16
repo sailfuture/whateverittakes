@@ -84,11 +84,6 @@ function Services() {
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-              <StylizedImage
-                src="https://res.cloudinary.com/dbhwzxw0k/image/upload/v1671684142/Frame_2.png"
-                sizes="(min-width: 1024px) 41rem, 31rem"
-                className="justify-center lg:justify-end"
-              />
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
@@ -120,7 +115,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'SailFuture proudly announces the completion of its latest marvel, the Whatever It Takes, a magnificent 100-foot school ship set to revolutionize educational journeys at sea.',
 }
 
 export default async function Home() {
@@ -128,6 +123,7 @@ export default async function Home() {
 
   return (
     <>
+
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           
@@ -138,6 +134,37 @@ export default async function Home() {
           SailFuture proudly announces the completion of its latest marvel, the &apos;Whatever It Takes&apos;, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. Join us as we set sail on a journey of discovery and education like no other!
           </p>
         </FadeIn>
+      </Container>
+
+      <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
+
+      <PageIntro eyebrow="School ship vessel" title="Whatever It Takes">
+        <p>
+          We believe that our strength lies in our collaborative approach, which
+          puts our clients at the center of everything we do.
+        </p>
+        <div className="mt-10 max-w-2xl space-y-6 text-base">
+          <p>
+            Studio was started by three friends who noticed that developer
+            studios were charging clients double what an in-house team would
+            cost. Since the beginning, we have been committed to doing things
+            differently by charging triple instead.
+          </p>
+          <p>
+            At Studio, we’re more than just colleagues — we’re a family. This
+            means we pay very little and expect people to work late. We want our
+            employees to bring their whole selves to work. In return, we just
+            ask that they keep themselves there until at least 6:30pm.
+          </p>
+        </div>
+      </PageIntro>
+
+      <Container className="mt-16">
+      <StatList>
+        <StatListItem value="35" label="Underpaid employees" />
+        <StatListItem value="52" label="Placated clients" />
+        <StatListItem value="$25M" label="Invoices billed" />
+      </StatList>
       </Container>
 
       <Services />
