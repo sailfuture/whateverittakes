@@ -73,13 +73,13 @@ function Discover() {
         Details
       </h3>
       <TagList className="mt-4">
-        <TagListItem>Length (LOA)	100' (30m)</TagListItem>
+        <TagListItem>LOA: 100&apos; (30m)</TagListItem>
         <TagListItem>Model: Custom Cruising Ketch</TagListItem>
-        <TagListItem>Draft	11' (3.35m)</TagListItem>
-        <TagListItem>Beam	22' (6.71m)</TagListItem>
-        <TagListItem>Range	2,000 NM</TagListItem>
-        <TagListItem>Build Year	1989</TagListItem>
-        <TagListItem>Gross Tonnage 85</TagListItem>
+        <TagListItem>Draft: 11&apos; (3.35m)</TagListItem>
+        <TagListItem>Beam: 22&apos; (6.71m)</TagListItem>
+        <TagListItem>Range: 2,000 NM</TagListItem>
+        <TagListItem>Build Year: 1989</TagListItem>
+        <TagListItem>Gross Tonnage: 85</TagListItem>
       </TagList>
     </Section>
   )
