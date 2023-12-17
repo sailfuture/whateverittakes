@@ -70,7 +70,7 @@ function Discover() {
         SailFuture proudly announces the completion of its latest marvel, the S/Y Whatever It Takes, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. 
         </p>
         <p>
-        Whatever It Takes embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world's waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. 
+        Whatever It Takes embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world&apos;s waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. 
         </p>
         <p>
         Join us as we set sail on a journey of discovery and education like no other!
@@ -89,10 +89,10 @@ function Discover() {
       </h3>
       <TagList className="mt-4">
         <TagListItem>Model: Custom Ketch</TagListItem>
-        <TagListItem>Length (LOA)	100' (30m)</TagListItem>
+        <TagListItem>Length (LOA)	100&apos; (30m)</TagListItem>
         <TagListItem>Gross Tonn.	85</TagListItem>
-        <TagListItem>Draft	11' (3.35m)</TagListItem>
-        <TagListItem>Beam	22' (6.71m)</TagListItem>
+        <TagListItem>Draft	11&apos; (3.35m)</TagListItem>
+        <TagListItem>Beam	22&apos; (6.71m)</TagListItem>
         <TagListItem>Range	2,000 NM</TagListItem>
         <TagListItem>Build Year	1989</TagListItem>
         <TagListItem>Cruising Speed	10 Knots</TagListItem>
@@ -290,7 +290,7 @@ export default function Process() {
         </p>
         <br></br>
         <p>
-        Our journey has been one of relentless dedication and innovative approaches, using the power of sailing and mentorship to instill resilience, leadership, and hope in our youth. Each wave we've conquered and every mile we've sailed symbolizes our commitment to altering life courses for the better. This anniversary is not just a reflection of our past but a beacon for our future, as we continue to chart a course for positive change and lasting impact.
+        Our journey has been one of relentless dedication and innovative approaches, using the power of sailing and mentorship to instill resilience, leadership, and hope in our youth. Each wave we&apos;ve conquered and every mile we&apos;ve sailed symbolizes our commitment to altering life courses for the better. This anniversary is not just a reflection of our past but a beacon for our future, as we continue to chart a course for positive change and lasting impact.
         </p>
         <br></br>
         <p>
