@@ -72,7 +72,7 @@ function Discover() {
         Join us as we set sail on a journey of discovery and education like no other!
         </p>
 
-        <div className="mt-6 flex dark">
+        <div className="mt-6 flex">
               <Button href="https://sailfuture.org/donate/">
                 Donate Now
               </Button>

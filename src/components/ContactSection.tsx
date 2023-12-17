@@ -12,7 +12,7 @@ export function ContactSection() {
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
             Build Your Legacy with Us
             </h2>
-            <p class="text-gray-400 py-4">
+            <p className="text-gray-400 py-4">
             Your donation to SailFuture is more than a contribution; it's the cornerstone of a legacy that will ripple through generations. Each donation fuels our efforts to empower, educate, and transform the lives of youth through the unique experiences of sailing and mentorship.
               </p> 
             <div className="mt-6 flex dark">
