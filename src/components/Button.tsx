@@ -10,7 +10,6 @@ type ButtonProps = {
 
 export function Button({
   invert = false,
-  dark = false,
   className,
   children,
   ...props
