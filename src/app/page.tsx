@@ -20,14 +20,10 @@ import { GrayscaleTransitionImage } from '@/components/GrayscaleTransitionImage'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 import { Button } from '@/components/Button'
 
-import Header from '@/components/Logo'
-import logoImage from '@/images/SailFutureLogoDarkBlue.svg'; // Path to your logo image
-
 function Section({
   title,
   image,
-  children,
-  eyebrow
+  children
 }: {
   title: string
   image: React.ComponentPropsWithoutRef<typeof StylizedImage>
