@@ -60,7 +60,7 @@ function Section({
 
 function Discover() {
   return (
-    <Section title="S/Y Whatever It Takes" image={{ src: imageWhiteboard }} eyebrow="Help Us Celebrate 10 Years of Transforming Lives">
+    <Section title="S/Y Whatever It Takes" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
         SailFuture proudly announces the completion of its latest marvel, the S/Y Whatever It Takes, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. 
