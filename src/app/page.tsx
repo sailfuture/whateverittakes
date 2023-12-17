@@ -70,7 +70,7 @@ function Discover() {
         SailFuture proudly announces the completion of its latest marvel, the S/Y Whatever It Takes, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. 
         </p>
         <p>
-        Whatever It Takes embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world&apos;s waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. 
+        Whatever It Takes embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the worlds waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. 
         </p>
         <p>
         Join us as we set sail on a journey of discovery and education like no other!
