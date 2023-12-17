@@ -26,8 +26,7 @@ import logoImage from '@/images/SailFutureLogoDarkBlue.svg'; // Path to your log
 function Section({
   title,
   image,
-  children,
-  eyebrow
+  children
 }: {
   title: string
   image: React.ComponentPropsWithoutRef<typeof StylizedImage>
