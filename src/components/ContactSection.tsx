@@ -6,20 +6,23 @@ import { Offices } from '@/components/Offices'
 export function ContactSection() {
   return (
     <Container className="mt-24 sm:mt-32 lg:mt-40">
-      <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
+      <FadeIn className="-mx-6 rounded-4xl bg-blue-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
         <div className="mx-auto max-w-4xl">
           <div className="max-w-xl">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
-              Tell us about your project
+            Build Your Legacy with Us
             </h2>
-            <div className="mt-6 flex">
-              <Button href="/contact" invert>
-                Say Hej
+            <p class="text-gray-400 py-4">
+            Your donation to SailFuture is more than a contribution; it's the cornerstone of a legacy that will ripple through generations. Each donation fuels our efforts to empower, educate, and transform the lives of youth through the unique experiences of sailing and mentorship.
+              </p> 
+            <div className="mt-6 flex dark">
+              <Button href="/contact">
+                Donate Now
               </Button>
             </div>
             <div className="mt-10 border-t border-white/10 pt-10">
               <h3 className="font-display text-base font-semibold text-white">
-                Our offices
+                Contact Us
               </h3>
               <Offices
                 invert

@@ -11,14 +11,23 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
-import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import imageLaptop from '@/images/092923_WhateverItTakes_5.jpg'
+import imageMeeting from '@/images/092923_WhateverItTakes_2.jpg'
+import imageWhiteboard from '@/images/Frame_2.png'
+import imageBoat2 from '@/images/399771068_727784049373305_6195152099844432013_n.jpg'
+import imageBoat1 from '@/images/399920874_727783996039977_7858279453029189595_n.jpg'
+import { GrayscaleTransitionImage } from '@/components/GrayscaleTransitionImage'
+import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
+import { Button } from '@/components/Button'
+
+import Header from '@/components/Logo'
+import logoImage from '@/images/SailFutureLogoDarkBlue.svg'; // Path to your logo image
 
 function Section({
   title,
   image,
   children,
+  eyebrow
 }: {
   title: string
   image: React.ComponentPropsWithoutRef<typeof StylizedImage>
@@ -39,7 +48,7 @@ function Section({
         <div className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first">
           <FadeIn>
             <div
-              className="font-display text-base font-semibold before:text-neutral-300 before:content-['/_'] after:text-neutral-950 after:content-[counter(section,decimal-leading-zero)]"
+              className="font-display text-base font-semibold before:text-neutral-300 before:content-[''] after:text-neutral-950 after:content-[]"
               aria-hidden="true"
             />
             <h2 className="mt-2 font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
@@ -55,40 +64,38 @@ function Section({
 
 function Discover() {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard }}>
+    <Section title="S/Y Whatever It Takes" image={{ src: imageWhiteboard }} eyebrow="Help Us Celebrate 10 Years of Transforming Lives">
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+        SailFuture proudly announces the completion of its latest marvel, the S/Y Whatever It Takes, a magnificent 100-foot school ship set to revolutionize educational journeys at sea. This vessel is not just a ship, but a floating classroom, designed to carry students across the globe on 7-week international expeditions. 
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
+        Whatever It Takes embodies the spirit of adventure and learning, offering an unparalleled opportunity for students to explore the world's waters while receiving a unique educational experience. As the flagship vessel of SailFuture, it stands as a testament to our commitment to innovative education and transformative sea voyages. 
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+        Join us as we set sail on a journey of discovery and education like no other!
         </p>
+
+        <div className="mt-6 flex dark">
+              <Button href="https://sailfuture.org/donate/">
+                Donate Now
+              </Button>
+            </div>
+
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Boat Specifications
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Model: Custom Ketch</TagListItem>
+        <TagListItem>Length (LOA)	100' (30m)</TagListItem>
+        <TagListItem>Gross Tonn.	85</TagListItem>
+        <TagListItem>Draft	11' (3.35m)</TagListItem>
+        <TagListItem>Beam	22' (6.71m)</TagListItem>
+        <TagListItem>Range	2,000 NM</TagListItem>
+        <TagListItem>Build Year	1989</TagListItem>
+        <TagListItem>Cruising Speed	10 Knots</TagListItem>
       </TagList>
     </Section>
   )
@@ -132,7 +139,7 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Deliver" image={{ src: imageMeeting }} >
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           About halfway through the Build phase, we push each project out by 6
@@ -184,14 +191,26 @@ function Deliver() {
   )
 }
 
+function ImageHeroSection() {
+return (
+  <div className="border-y border-neutral-200 bg-neutral-100 mt-20">
+  <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
+    <GrayscaleTransitionImage
+      {...imageBoat1}
+      quality={90}
+      className="w-full"
+      sizes="(min-width: 1216px) 76rem, 100vw"
+      priority
+    />
+  </div>
+</div>
+)
+}
+
 function Values() {
   return (
-    <div className="relative mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40 lg:pt-40">
+    <div className="relative pt-12 sm:mt-0 sm:pt-32 lg:mt-0 lg:pt-20">
       <div className="absolute inset-x-0 top-0 -z-10 h-[884px] overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50">
-        <GridPattern
-          className="absolute inset-0 h-full w-full fill-neutral-100 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
-          yOffset={-270}
-        />
       </div>
 
       <SectionIntro
@@ -239,6 +258,23 @@ function Values() {
   )
 }
 
+
+function ImageHeroSection2() {
+  return (
+    <div className="border-y border-neutral-200 bg-neutral-100 mt-20">
+    <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
+      <GrayscaleTransitionImage
+        {...imageBoat2}
+        quality={90}
+        className="w-full"
+        sizes="(min-width: 1216px) 76rem, 100vw"
+        priority
+      />
+    </div>
+  </div>
+  )
+  }
+
 export const metadata: Metadata = {
   title: 'Our Process',
   description:
@@ -248,23 +284,45 @@ export const metadata: Metadata = {
 export default function Process() {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro eyebrow="" title="Help Us Celebrate 10 Years of Transforming Lives">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        As SailFuture celebrates its 10th anniversary, we invite you to join us in commemorating a decade of extraordinary transformation and empowerment. For ten years, SailFuture has navigated the tumultuous waters of change, steering countless young lives towards brighter horizons. 
         </p>
+        <br></br>
+        <p>
+        Our journey has been one of relentless dedication and innovative approaches, using the power of sailing and mentorship to instill resilience, leadership, and hope in our youth. Each wave we've conquered and every mile we've sailed symbolizes our commitment to altering life courses for the better. This anniversary is not just a reflection of our past but a beacon for our future, as we continue to chart a course for positive change and lasting impact.
+        </p>
+        <br></br>
+        <p>
+        Join us in celebrating this remarkable milestone and help us set sail for another decade of life-transforming adventures with SailFuture.
+        </p>
+
+        <div className="mt-6 flex dark">
+              <Button href="https://sailfuture.org/donate/">
+                Build Your Legacy with SailFuture
+              </Button>
+            </div>
+
       </PageIntro>
 
-      <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
+      <ImageHeroSection />
+
+      <Values />
+
+      <ImageHeroSection2 />
+
+      <div className="mt-24 space-y-24 sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
         <Discover />
         <Build />
         <Deliver />
       </div>
 
-      <Values />
+
 
       <ContactSection />
+
     </>
   )
 }
+
+
